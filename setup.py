@@ -23,7 +23,7 @@ setup(
         'pyOpenSSL',
         'protobuf',
         'construct<2.6',
-        'pysnmp==4.2.5',
+        'pysnmp==4.4.5',
         'cryptography',
         'service_identity'
     ],

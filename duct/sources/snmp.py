@@ -8,7 +8,7 @@
 from zope.interface import implementer
 
 from pysnmp.entity import engine, config
-from pysnmp.entity.rfc3413.twisted import cmdgen
+from pysnmp.hlapi.twisted import cmdgen
 from pysnmp.carrier.twisted import dispatch
 from pysnmp.carrier.twisted.dgram import udp
 from pysnmp.proto import rfc1905, rfc1902
